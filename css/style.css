@@ -4,11 +4,11 @@
    ============================================= */
 
 :root {
-  --navy: #0D1F3C;
-  --navy-mid: #1A3460;
-  --navy-light: #234785;
-  --gold: #C8A84B;
-  --gold-light: #E2C470;
+  --navy: #0039A6;
+  --navy-mid: #0030B8;
+  --navy-light: #1A52C4;
+  --gold: #D52B1E;
+  --gold-light: #E84B3F;
   --white: #FFFFFF;
   --off-white: #F4F6FA;
   --gray-100: #EEF1F7;
@@ -417,7 +417,7 @@ img { max-width: 100%; display: block; }
   justify-content: center;
   gap: 8px;
   background: var(--gold);
-  color: var(--navy);
+  color: var(--white);
   padding: 14px 32px;
   border-radius: 50px;
   font-size: 15px;
@@ -430,8 +430,8 @@ img { max-width: 100%; display: block; }
 .btn-gold:hover {
   background: var(--gold-light);
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(200,168,75,0.4);
-  color: var(--navy);
+  box-shadow: 0 8px 24px rgba(213,43,30,0.35);
+  color: var(--white);
 }
 .btn-gold--full { width: 100%; }
 
@@ -521,7 +521,7 @@ img { max-width: 100%; display: block; }
 }
 .events-ticker__label {
   background: var(--gold);
-  color: var(--navy);
+  color: var(--white);
   padding: 14px 20px;
   font-size: 13px;
   font-weight: 700;
@@ -876,7 +876,7 @@ img { max-width: 100%; display: block; }
   justify-content: center;
   transition: background var(--transition), transform var(--transition);
 }
-.social-btn:hover { background: var(--gold); color: var(--navy); transform: translateY(-3px); }
+.social-btn:hover { background: var(--gold); color: var(--white); transform: translateY(-3px); }
 
 .contacts-map {
   border-radius: var(--radius-lg);
